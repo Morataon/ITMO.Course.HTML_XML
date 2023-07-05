@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<myns:ITMO_Course_2023 xmlns:myns = "http://www.itmo.ru/xml/lessons ">
+<myns:item>
+	<myns:module>Курс № 1</myns:module>
+		<myns:LecturerName>Денис</myns:LecturerName>
+		<myns:LecturerLastName>Ямщиков</myns:LecturerLastName>
+		<myns:LecturerSername>Викторович</myns:LecturerSername>
+		<myns:Hours>45</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>Технологии программирования</myns:ModuleName>
+		<myns:DateStart>2023.03.27</myns:DateStart>
+		<myns:DateFinish>2023.04.11</myns:DateFinish>
+</myns:item>
+	
+	<myns:module id = "2">
+		<myns:LecturerName>Никита</myns:LecturerName>
+		<myns:LecturerLastName>Осипов</myns:LecturerLastName>
+		<myns:LecturerSername>Алексеевич</myns:LecturerSername>
+		<myns:Hours>50</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>Программирование на C#</myns:ModuleName>
+		<myns:DateStart>2023.04.13</myns:DateStart>
+		<myns:DateFinish>2023.04.28</myns:DateFinish>
+	</myns:module>
+	
+	<myns:module id = "3">
+		<myns:LecturerName>Антон</myns:LecturerName>
+		<myns:LecturerLastName>Смольянинов</myns:LecturerLastName>
+		<myns:LecturerSername>Валентинович</myns:LecturerSername>
+		<myns:Hours>50</myns:Hours>
+		<myns:ControlType>Экзамен</myns:ControlType>
+		<myns:ModuleName>Разработка Windows-приложений на C#</myns:ModuleName>
+		<myns:DateStart>2023.05.02</myns:DateStart>
+		<myns:DateFinish>2023.05.30</myns:DateFinish>
+	</myns:module>
+	
+  <myns:module id = "4">
+		<myns:LecturerName>Ирина</myns:LecturerName>
+		<myns:LecturerLastName>Осетрова</myns:LecturerLastName>
+		<myns:LecturerSername>Станиславовна</myns:LecturerSername>
+		<myns:Hours>35</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>Введение в базы данных</myns:ModuleName>
+		<myns:DateStart>2023.06.01</myns:DateStart>
+		<myns:DateFinish>2023.06.16</myns:DateFinish>
+	</myns:module>
+	
+  <myns:module id = "5">
+		<myns:LecturerName>Константин</myns:LecturerName>
+		<myns:LecturerLastName>Кузьмин</myns:LecturerLastName>
+		<myns:LecturerSername>Михайлович</myns:LecturerSername>
+		<myns:Hours>25</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>Основы технологий разметки (HTML, XML)</myns:ModuleName>
+		<myns:DateStart>2023.06.19</myns:DateStart>
+		<myns:DateFinish>2023.06.29</myns:DateFinish>
+	</myns:module>
+
+  <myns:module id = "6">
+		<myns:LecturerName>Денис</myns:LecturerName>
+		<myns:LecturerLastName>Ямщиков</myns:LecturerLastName>
+		<myns:LecturerSername>Викторович</myns:LecturerSername>
+		<myns:Hours>65</myns:Hours>
+		<myns:ControlType>Экзамен</myns:ControlType>
+		<myns:ModuleName>Transact-SQL и Разработка Microsoft SQL Server</myns:ModuleName>
+		<myns:DateStart>2023.07.03</myns:DateStart>
+		<myns:DateFinish>2023.07.28</myns:DateFinish>
+	</myns:module>
+	
+  <myns:module id = "7">
+		<myns:LecturerName>Никита</myns:LecturerName>
+		<myns:LecturerLastName>Осипов</myns:LecturerLastName>
+		<myns:LecturerSername>Алексеевич</myns:LecturerSername>
+		<myns:Hours>40</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>Технология ADO.NET</myns:ModuleName>
+		<myns:DateStart>2023.09.04</myns:DateStart>
+		<myns:DateFinish>2023.09.19</myns:DateFinish>
+	</myns:module>
+	
+	<myns:module id = "8">
+		<myns:LecturerName>Антон</myns:LecturerName>
+		<myns:LecturerLastName>Смольянинов</myns:LecturerLastName>
+		<myns:LecturerSername>Валентинович</myns:LecturerSername>
+		<myns:Hours>50</myns:Hours>
+		<myns:ControlType>Экзамен</myns:ControlType>
+		<myns:ModuleName>Разработка Web-приложений с использованием технологии ASP.NET</myns:ModuleName>
+		<myns:DateStart>2023.09.21</myns:DateStart>
+		<myns:DateFinish>2023.10.10</myns:DateFinish>
+	</myns:module>
+	
+<myns:module id = "9">
+		<myns:LecturerName>Артур</myns:LecturerName>
+		<myns:LecturerLastName>Харатьян</myns:LecturerLastName>
+		<myns:LecturerSername>Самвелович</myns:LecturerSername>
+		<myns:Hours>65</myns:Hours>
+		<myns:ControlType>Экзамен</myns:ControlType>
+		<myns:ModuleName>Программирование на Java</myns:ModuleName>
+		<myns:DateStart>2023.10.12</myns:DateStart>
+		<myns:DateFinish>2023.11.14</myns:DateFinish>
+	</myns:module>
+	
+<myns:module id = "10">
+		<myns:LecturerName>Константин</myns:LecturerName>
+		<myns:LecturerLastName>Кузьмин</myns:LecturerLastName>
+		<myns:LecturerSername>Михайлович</myns:LecturerSername>
+		<myns:Hours>40</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>Программирование на Python</myns:ModuleName>
+		<myns:DateStart>2023.11.16</myns:DateStart>
+		<myns:DateFinish>2023.12.05</myns:DateFinish>
+	</myns:module>
+		
+<myns:module id = "11">
+		<myns:LecturerName>Виталий</myns:LecturerName>
+		<myns:LecturerLastName>Климанов</myns:LecturerLastName>
+		<myns:LecturerSername>Александрович</myns:LecturerSername>
+		<myns:Hours>50</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>СУБД Oracle (SQL, PL/SQL)</myns:ModuleName>
+		<myns:DateStart>2023.12.07</myns:DateStart>
+		<myns:DateFinish>2023.12.26</myns:DateFinish>
+</myns:module>
+	
+	<myns:module id = "12">
+		<myns:LecturerName>Никита</myns:LecturerName>
+		<myns:LecturerLastName>Осипов</myns:LecturerLastName>
+		<myns:LecturerSername>Алексеевич</myns:LecturerSername>
+		<myns:Hours>65</myns:Hours>
+		<myns:ControlType>Экзамен</myns:ControlType>
+		<myns:ModuleName>Программирование на С++</myns:ModuleName>
+		<myns:DateStart>2024.01.09</myns:DateStart>
+		<myns:DateFinish>2024.01.31</myns:DateFinish>
+	</myns:module>
+	
+<myns:module id = "13">
+		<myns:LecturerName>Денис</myns:LecturerName>
+		<myns:LecturerLastName>Ямщиков</myns:LecturerLastName>
+		<myns:LecturerSername>Викторович</myns:LecturerSername>
+		<myns:Hours>50</myns:Hours>
+		<myns:ControlType>Зачет</myns:ControlType>
+		<myns:ModuleName>Разработка Web-приложений на HTML5, JavaScript и CSS3</myns:ModuleName>
+		<myns:DateStart>2024.02.01</myns:DateStart>
+		<myns:DateFinish>2024.02.21</myns:DateFinish>
+</myns:module>
+	
+</myns:ITMO_Course_2023>

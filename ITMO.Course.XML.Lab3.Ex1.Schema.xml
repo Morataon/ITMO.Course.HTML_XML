@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ITMO_Course_2023">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="module" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="module">
+    <xs:complexType>
+      <xs:sequence>
+      <xs:element name = "LecturerName" type="xs:string"/>
+      <xs:element name = "LecturerLastName" type="xs:string"/>
+      <xs:element name = "LecturerSername" type="xs:string"/>
+      <xs:element name = "Hours" type="xs:unsignedByte"/>
+      <xs:element name = "ControlType"  type="xs:string"/>
+        <xs:enumeration value = "Зачет"/>
+        <xs:enumeration value = "Экзамен"/>
+      <xs:element name = "ModuleName" type="xs:string"/>
+      <xs:element name = "DateStart" type="xs:date"/>
+      <xs:element name = "DateFinish" type="xs:date"/>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

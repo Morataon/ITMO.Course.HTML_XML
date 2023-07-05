@@ -1,0 +1,10 @@
+<!ELEMENT ITMO_Course_2023 (module+)>
+<!ELEMENT module (LecturerName, LecturerLastName, LecturerSername, Hours, ControlType, ModuleName, DateStart, DateFinish)>
+<!ELEMENT LecturerName (#PCDATA)> 
+<!ELEMENT LecturerLastName (#PCDATA)> 
+<!ELEMENT LecturerSername (#PCDATA)> 
+<!ELEMENT Hours (#PCDATA)> 
+<!ELEMENT ControlType (#PCDATA)> 
+<!ELEMENT ModuleName (#PCDATA)> 
+<!ELEMENT DateStart (#PCDATA)> 
+<!ELEMENT DateFinish (#PCDATA)> 

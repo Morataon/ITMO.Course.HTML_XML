@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ITMO_Course_2023>
+	<module id="1">
+		<LecturerName>Денис</LecturerName>
+		<LecturerLastName>Ямщиков</LecturerLastName>
+		<LecturerSername>Викторович</LecturerSername>
+		<Hours>45</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>Технологии программирования</ModuleName>
+		<DateStart>2023.03.27</DateStart>
+		<DateFinish>2023.04.11</DateFinish>
+	</module>
+	
+	<module id="2">
+		<LecturerName>Никита</LecturerName>
+		<LecturerLastName>Осипов</LecturerLastName>
+		<LecturerSername>Алексеевич</LecturerSername>
+		<Hours>50</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>Программирование на C#</ModuleName>
+		<DateStart>2023.04.13</DateStart>
+		<DateFinish>2023.04.28</DateFinish>
+	</module>
+	
+	<module id="3">
+		<LecturerName>Антон</LecturerName>
+		<LecturerLastName>Смольянинов</LecturerLastName>
+		<LecturerSername>Валентинович</LecturerSername>
+		<Hours>50</Hours>
+		<ControlType>Экзамен</ControlType>
+		<ModuleName>Разработка Windows-приложений на C#</ModuleName>
+		<DateStart>2023.05.02</DateStart>
+		<DateFinish>2023.05.30</DateFinish>
+	</module>
+	
+  <module id="4">
+		<LecturerName>Ирина</LecturerName>
+		<LecturerLastName>Осетрова</LecturerLastName>
+		<LecturerSername>Станиславовна</LecturerSername>
+		<Hours>35</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>Введение в базы данных</ModuleName>
+		<DateStart>2023.06.01</DateStart>
+		<DateFinish>2023.06.16</DateFinish>
+	</module>
+	
+  <module id="5">
+		<LecturerName>Константин</LecturerName>
+		<LecturerLastName>Кузьмин</LecturerLastName>
+		<LecturerSername>Михайлович</LecturerSername>
+		<Hours>25</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>Основы технологий разметки (HTML, XML)</ModuleName>
+		<DateStart>2023.06.19</DateStart>
+		<DateFinish>2023.06.29</DateFinish>
+	</module>
+
+  <module id="6">
+		<LecturerName>Денис</LecturerName>
+		<LecturerLastName>Ямщиков</LecturerLastName>
+		<LecturerSername>Викторович</LecturerSername>
+		<Hours>65</Hours>
+		<ControlType>Экзамен</ControlType>
+		<ModuleName>Transact-SQL и Разработка Microsoft SQL Server</ModuleName>
+		<DateStart>2023.07.03</DateStart>
+		<DateFinish>2023.07.28</DateFinish>
+	</module>
+	
+  <module id="7">
+		<LecturerName>Никита</LecturerName>
+		<LecturerLastName>Осипов</LecturerLastName>
+		<LecturerSername>Алексеевич</LecturerSername>
+		<Hours>40</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>Технология ADO.NET</ModuleName>
+		<DateStart>2023.09.04</DateStart>
+		<DateFinish>2023.09.19</DateFinish>
+	</module>
+	
+	<module id="8">
+		<LecturerName>Антон</LecturerName>
+		<LecturerLastName>Смольянинов</LecturerLastName>
+		<LecturerSername>Валентинович</LecturerSername>
+		<Hours>50</Hours>
+		<ControlType>Экзамен</ControlType>
+		<ModuleName>Разработка Web-приложений с использованием технологии ASP.NET</ModuleName>
+		<DateStart>2023.09.21</DateStart>
+		<DateFinish>2023.10.10</DateFinish>
+	</module>
+	
+<module id="9">
+		<LecturerName>Артур</LecturerName>
+		<LecturerLastName>Харатьян</LecturerLastName>
+		<LecturerSername>Самвелович</LecturerSername>
+		<Hours>65</Hours>
+		<ControlType>Экзамен</ControlType>
+		<ModuleName>Программирование на Java</ModuleName>
+		<DateStart>2023.10.12</DateStart>
+		<DateFinish>2023.11.14</DateFinish>
+	</module>
+	
+<module id="10">
+		<LecturerName>Константин</LecturerName>
+		<LecturerLastName>Кузьмин</LecturerLastName>
+		<LecturerSername>Михайлович</LecturerSername>
+		<Hours>40</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>Программирование на Python</ModuleName>
+		<DateStart>2023.11.16</DateStart>
+		<DateFinish>2023.12.05</DateFinish>
+	</module>
+		
+<module id="11">
+		<LecturerName>Виталий</LecturerName>
+		<LecturerLastName>Климанов</LecturerLastName>
+		<LecturerSername>Александрович</LecturerSername>
+		<Hours>50</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>СУБД Oracle (SQL, PL/SQL)</ModuleName>
+		<DateStart>2023.12.07</DateStart>
+		<DateFinish>2023.12.26</DateFinish>
+</module>
+	
+	<module id="12">
+		<LecturerName>Никита</LecturerName>
+		<LecturerLastName>Осипов</LecturerLastName>
+		<LecturerSername>Алексеевич</LecturerSername>
+		<Hours>65</Hours>
+		<ControlType>Экзамен</ControlType>
+		<ModuleName>Программирование на С++</ModuleName>
+		<DateStart>2024.01.09</DateStart>
+		<DateFinish>2024.01.31</DateFinish>
+	</module>
+	
+<module id="13">
+		<LecturerName>Денис</LecturerName>
+		<LecturerLastName>Ямщиков</LecturerLastName>
+		<LecturerSername>Викторович</LecturerSername>
+		<Hours>50</Hours>
+		<ControlType>Зачет</ControlType>
+		<ModuleName>Разработка Web-приложений на HTML5, JavaScript и CSS3</ModuleName>
+		<DateStart>2024.02.01</DateStart>
+		<DateFinish>2024.02.21</DateFinish>
+</module>
+	
+</ITMO_Course_2023>

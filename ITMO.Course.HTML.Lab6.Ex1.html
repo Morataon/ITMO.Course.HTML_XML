@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Формы</title>
+</head>
+<body>
+<p>Это упражнение важно для итогового проекта !! работа с цветом (выбор цвета), работа с датой, проверка email, проверка чисел, работа с днем недели, проверка URL </p>
+<br/>
+<p>Основные элементы форм:</p>
+<form action = "ITMO.Course.HTML.Lab6.Ex1.html" method = "POST" enctype = "multipart/form-data">
+  Простое текстовое поле:<br/>
+    <input type="text" name="txtField"/><br/>
+<br/>
+  Поле длинной максимум 5 символов:<br/>
+     <input type="text" name="txtField5" maxlength="5"/><br/>
+<br/>
+  Многострочное текстовое поле:<br/>
+  <textarea name = "txtArea">This is a text area</textarea><br/>
+<br/>
+  Поле для ввода пароля:<br/>
+  <input type = "password" name = "psw" /><br /><br/>
+  Скрытое поле(служит для передачи данных, например на сервер):
+  <br/>
+  <input type = "hidden" name = "hdnTxt"></br>
+  Кнопка "Отправить"<br/>
+<input type = "submit" name = "submit" value = "Отправить!" /><br/>
+</form>
+</body>
+</html>

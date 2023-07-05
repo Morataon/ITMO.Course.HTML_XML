@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Работа с таблицами</title>
+</head>
+<body>
+<p>Это упражнение на объединение ячеек</p>
+<br/>
+<!--
+<td colspan = "3">Лютикова Аделина Федоровна</td> это объединение по горизонтали
+<td rowspan = "2">Пупкин</td> это объединение по вертикали
+ -->
+<table border="2">
+  <caption style="caption-side: top">Список сотрудников</caption>
+  <tr>
+    <th>Фамилия</th>
+    <th>Имя</th>
+    <th>Отчество</th>
+    <th>Город</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Пупкин</td>
+    <td>Василий</td>
+    <td>Петрович</td>
+    <td rowspan="2">Москва</td>
+  </tr>
+  <tr>
+    <td>Феофан</td>
+    <td>Васильевич</td>
+  </tr>
+  <tr>
+    <td>Шашкин</td>
+    <td>Сидор</td>
+    <td>Богданович</td>
+    <td>Санкт-Петербург</td>
+  </tr>
+  <tr>
+    <td colspan = "3">Лютикова Аделина Федоровна</td>
+    <td>Тверь</td>
+  </tr>
+</table>
+<br/>
+<table border="2" style="width: 80%">
+  <caption align="bottom">Список сотрудников</caption>
+  <tr>
+    <td>Фамилия</td>
+    <td>Имя</td>
+    <td>Отчество</td>
+    <td>Город</td>
+  </tr>
+  <tr>
+    <td>Пупкин</td>
+    <td>Василий</td>
+    <td>Петрович</td>
+    <td>Москва</td>
+  </tr>
+  <tr>
+    <td>Пупкин</td>
+    <td>Феофан</td>
+    <td>Васильевич</td>
+    <td>Москва</td>
+  </tr>
+  <tr>
+    <td>Шашкин</td>
+    <td>Сидор</td>
+    <td>Богданович</td>
+    <td>Санкт-Петербург</td>
+  </tr>
+  <tr>
+    <td>Лютикова</td>
+    <td>Аделина</td>
+    <td>Федоровна</td>
+    <td>Тверь</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE library SYSTEM "ITMO.Course.XML.Lab2.Ex2.dtd">
+<library>
+	<book_catalog>
+		<book id="N1" isbn="978-5-386-01614-2" year="1993" issue="original">
+			<authors>
+				<author> Рыбченкова </author>
+				<author> Александрова </author>
+			</authors>
+			<title> Русский язык (базовый уровень) </title>
+			<publishing> Просвещение </publishing>
+			<annotation> Книга представлена в  &internet; </annotation>
+		</book>
+		
+		<book id="N2" year="1967" issue="translation">
+			<authors>
+				<author> Михайлов </author>
+			</authors>
+			<title> Русская литература XX века. Учебник. 11 класс. В 2-х частях </title>
+			<publishing> Просвещение </publishing>
+			<annotation> Книга представлена в  &linux; </annotation>
+		</book>
+		
+		<book id="N3" isbn="412-2-21321-12312-6" year="2022" issue="original">
+			<authors>
+				<author> Александрова </author>
+			</authors>
+			<title> Английский язык. Учебник. 11 класс </title>
+			<publishing> Просвещение </publishing>
+			<annotation> Книга представлена в &linux; </annotation>
+		</book>
+		
+		<book id="N4" isbn="343-2-123-7823-5" year="2001">
+			<authors>
+				<author> Михеева </author>
+				<author> Дули </author>
+			</authors>
+			<title> Английский язык. Рабочая тетрадь </title>
+			<publishing> Родина </publishing>
+			<annotation> Книга представлена в &internet; </annotation>
+		</book>
+		
+		<book id="N5" year="1995" issue="original">	
+			<title> История России с древнейших времен до конца 16 в. Атлас. 6 класс. </title>
+			<publishing> Просвещение </publishing>
+			<annotation> Книга представлена в  &linux; </annotation>
+		</book>
+		
+		<book id="N6" isbn="172-4-5666-21321-1" year="1965" issue="translation">
+			<authors> 
+				<author> Кириллов </author>
+			</authors> 
+			<title> История. История России до 1914 года </title>
+			<publishing> Дрофа </publishing>
+		</book>
+	</book_catalog>
+	
+	<author_catalog>
+		<author_book idref="N1"> Рыбченкова </author_book>
+		<author_book idref="N1"> Александрова </author_book>
+		<author_book idref="N3"> Александрова </author_book>
+		<author_book idref="N2"> Михайлов </author_book>
+		<author_book idref="N4"> Михеева </author_book>
+		<author_book idref="N6"> Кириллов </author_book>
+	</author_catalog>
+</library>

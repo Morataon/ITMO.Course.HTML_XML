@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<resume>
+	<candidate id = "1">
+		<Name>Антон</Name>
+		<LastName>Николаев</LastName>
+		<Sername>Николаевиич</Sername>
+		<Age>24</Age>
+		<CurrentWorkPlace>ООО "Рога и Копыта"</CurrentWorkPlace>
+		<Post>инспектор</Post>
+		<DOB>1999.02.23</DOB>
+		<Education>высшее</Education>
+		<Specialty>юридическое</Specialty>
+		<Adress>СПб, пр. Вернадского, д 13, к 1 кв 23</Adress>
+		<Phone>89211234567</Phone>
+		<FamilyStatus>холост</FamilyStatus>
+		<DesiredSalary currency = "RUR">30 000</DesiredSalary>
+	</candidate>
+	
+	<candidate id = "2">
+		<Name>Иван</Name>
+		<LastName>Сидоренко</LastName>
+		<Sername>Иванович</Sername>
+		<Age>55</Age>
+		<CurrentWorkPlace>ООО "РусьСвет"</CurrentWorkPlace>
+		<Post>экономист</Post>
+		<DOB>02.03.1968</DOB>
+		<Education>высшее </Education>
+		<Specialty>экономическое</Specialty>
+		<Address>СПб, Серпуховская 13-9</Address>
+		<Phone>987-65-54</Phone>
+		<FamilyStatus>женат</FamilyStatus>
+		<DesiredSalary currency = "RUR">50 000</DesiredSalary>
+	</candidate>
+	
+	<candidate id = "3">
+		<Name>Ольга</Name>
+		<LastName>Гашекова</LastName>
+		<Sername>Сергеевна</Sername>
+		<Age>46</Age>	
+		<CurrentWorkPlace>ООО "Строй"</CurrentWorkPlace>
+		<Post>менеджер по продажам</Post>
+		<DOB>19.12.1976</DOB>
+		<Education>среднее профессиональное</Education>
+		<Specialty>менеджмент организации</Specialty>
+		<Address>СПб, Дбуновская 12-4</Address>
+		<Phone>122-33-44</Phone>
+		<FamilyStatus>не замужем</FamilyStatus>
+		<DesiredSalary currency = "RUR">35 000</DesiredSalary>
+	</candidate>
+</resume>
+
